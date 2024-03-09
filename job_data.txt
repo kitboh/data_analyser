@@ -1,0 +1,34 @@
+Title: Senior HR Data Analyst - Grade 7
+Salary: 41234.5 44264
+Title: Data and Development Analyst
+Salary: 30000.0 35000
+Title: Data Analyst
+Salary: 47500.0 50000
+Title: Finance Data Analyst
+Salary: 29000.0 30000
+Title: Data Analyst
+Salary: 24000.0 24000
+Title: Key Accounts Data Analyst
+Salary: 0 0
+Title: Data Analyst
+Salary: 37500.0 40000
+Title: DHS Data Analyst
+Salary: 0 0
+Title: Data Analyst
+Salary: 0 0
+Title: Data Analyst
+Salary: 37500.0 40000
+Title: Performance Data Analyst
+Salary: 28500.0 30000
+Title: Graduate Data Analyst
+Salary: 30000.0 32000
+Title: Graduate Data Analyst
+Salary: 30000.0 32000
+Title: Paid Media Graduate - Data Analyst
+Salary: 23250.0 24000
+Title: Data Analyst - Python / SQL / Data Modelling
+Salary: 47500.0 50000
+Title: Principal Data Analyst
+Salary: 56500.0 60000
+Mean of means: 35575.730769230766
+Median of medians: 35000
