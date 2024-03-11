@@ -19,6 +19,7 @@ This project requires geckodriver to run. Follow the instructions below to downl
 
 1. Open a terminal and navigate to the project directory.
 2. Run the project using the appropriate command.
+3. An argument can be added to the runtime command to search for a job title string. i.e. python main.py "Data Analyst"
 
 ## Contributing
 
