@@ -11,7 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 driver = webdriver.Firefox()
 job_name = sys.argv[1] if len(sys.argv) > 1 else ""
 if job_name == "":
-    job_name = "Data Analyst"  # Fix: Replace '==' with '=' to assign the value
+    job_name = "Data Analyst"
 print(job_name)
 formatted_name = job_name.replace(" ", "+")
 url = f"https://uk.indeed.com/jobs?q={formatted_name}&l=St.+Asaph%2C+Denbighshire&sc=0kf%3Ajt%28permanent%29%3B&vjk=60c6296b5f85300e"
@@ -94,37 +94,6 @@ for _ in range(3):
 
 # Close the driver
 driver.quit()
-
-# new_driver = webdriver.Firefox()
-# new_url = "https://www.totaljobs.com/jobs/permanent/data-analyst/in-st-asaph?radius=20"
-# new_driver.get(new_url)
-
-# # Find elements with data-at attribute and id "job-item"
-# job_items = new_driver.find_elements(By.CSS_SELECTOR, '[data-at="job-item"]')
-
-# # Process the job items
-# # Wait for the popup to show
-# popup = WebDriverWait(new_driver, 10).until(EC.presence_of_element_located((By.ID, 'ccmgt_explicit_accept')))
-# # Press the button
-# popup.click()
-# for job_item in job_items:
-#     # Extract the job details job-item-salary-info
-#     job_title = job_item.find_element(By.CSS_SELECTOR, '[data-at="job-item-title"]')
-#     job_salary = job_item.find_element(By.CSS_SELECTOR, '[data-at="job-item-salary-info"]')
-#     mean_sal, median_sal = average_salary(job_salary.text)
-
-#     if "Data" in job_title.text and "Analyst" in job_title.text and "Junior" not in job_title.text:
-#         # Do something if job title contains "Data Analyst"
-#         if mean_sal != 0:
-#             means.append(mean_sal)
-#         if median_sal != 0:
-#             medians.append(median_sal)
-#         job_data.append({
-#             "title": job_title.text,
-#             "av_salary": str(mean_sal) + " " + str(median_sal)
-#         })
-# new_driver.quit()
-
 
 # Write job data to a text file
 with open("job_data.txt", "w") as file:
